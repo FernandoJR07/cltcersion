@@ -1,0 +1,8 @@
+git init: "Cria um repositório"
+git add .: "Adiciona todas as mudanças"
+git config --global user.name: "Define o nome do usuário para todos os repositórios Git no seu sistema"
+git config --global user.email: "Define o email do usuário para todos os repositórios Git no seu sistema"
+git commit -m: "Salva as mudanças do stage no repositório com a mensagem descritiva do que foi alterado."
+git branch -M main: "Renomeia a branch atual para 'main'. Normalmente usado para padronizar o nome principal da branch."
+git remote add origin: "Vincula o repositório local ao repositório remoto no GitHub, chamado 'origin'."
+git push -u origin main: "Envia os commits da branch 'main' para o repositório remoto 'origin' e define 'main' como a branch padrão para futuros git push."
